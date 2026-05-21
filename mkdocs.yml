@@ -1,0 +1,115 @@
+site_name: TradeCat Research
+site_description: 量化交易研究资料、方法论、数据工程与风险控制知识库
+site_url: https://example.github.io/tradecat-research/
+repo_name: tradecat-research
+repo_url: https://github.com/example/tradecat-research
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - search.highlight
+    - search.suggest
+    - content.action.edit
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - scheme: slate
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - 首页: index.md
+  - 入门:
+      - getting-started/index.md
+      - 知识地图: getting-started/knowledge-map.md
+      - 贡献路线: getting-started/contribution-path.md
+  - 基础:
+      - foundations/index.md
+      - 市场微观结构: foundations/market-microstructure.md
+      - 统计基础: foundations/statistics.md
+      - 时间序列: foundations/time-series.md
+  - 数据:
+      - data/index.md
+      - 数据源: data/data-sources.md
+      - 数据质量: data/data-quality.md
+      - 数据字典: data/data-dictionary.md
+  - 研究:
+      - research/index.md
+      - 研究流程: research/research-process.md
+      - 回测框架: research/backtesting.md
+      - 实验记录: research/experiment-log.md
+  - 策略:
+      - strategies/index.md
+      - 趋势跟随: strategies/trend-following.md
+      - 均值回归: strategies/mean-reversion.md
+      - 统计套利: strategies/statistical-arbitrage.md
+      - 执行算法: strategies/execution.md
+  - 风险:
+      - risk/index.md
+      - 仓位管理: risk/position-sizing.md
+      - 回撤管理: risk/drawdown.md
+      - 组合风险: risk/portfolio-risk.md
+  - 工程化:
+      - engineering/index.md
+      - 研究流水线: engineering/research-pipeline.md
+      - 可复现研究: engineering/reproducibility.md
+      - 观测与复盘: engineering/observability.md
+  - 合规:
+      - compliance/index.md
+      - 免责声明: compliance/disclaimer.md
+      - 引用规范: compliance/citation-policy.md
+  - 参考:
+      - references/index.md
+      - 术语表: references/glossary.md
+      - 书目与论文: references/bibliography.md
+      - 工具资源: tools/resources.md
+  - 原始素材:
+      - source/quant-popular-science/index.md
+      - AI量化编程该怎么学: source/quant-popular-science/01-AI量化编程该怎么学-？.md
+      - 量化策略英雄池: source/quant-popular-science/02-量化策略英雄池.md
+      - 量化私募的两种模式: source/quant-popular-science/03-量化私募的两种模式.md
+      - 交易的部署模式: source/quant-popular-science/04-交易的部署模式.md
+      - 如何用期权合成期货: source/quant-popular-science/05-如何用期权合成期货.md
+      - 通俗理解期权平价公式: source/quant-popular-science/06-通俗理解期权平价公式.md
+      - 算法交易 TWAP VWAP POV: source/quant-popular-science/07-算法交易：TWAP、VWAP-与-POV.md
+  - 模板:
+      - contribution-templates/index.md
+      - 研究笔记模板: contribution-templates/research-note.md
+      - 策略卡片模板: contribution-templates/strategy-card.md
+      - 数据集卡片模板: contribution-templates/dataset-card.md
+      - 实验记录模板: contribution-templates/experiment-record.md
+      - 来源卡片模板: contribution-templates/source-card.md

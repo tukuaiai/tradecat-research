@@ -1,0 +1,27 @@
+name: 内容改进
+description: 报告文档错误、补充资料或改进结构。
+title: "[content] "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题或改进点
+      description: 说明当前文档哪里不准确、不完整或不好维护。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 证据或来源
+      description: 提供链接、论文、书籍、数据源或复现实验。
+    validations:
+      required: false
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议修改
+      description: 写出你建议新增、删除或调整的内容。
+    validations:
+      required: false

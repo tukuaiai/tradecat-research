@@ -1,0 +1,20 @@
+name: 风险提醒
+description: 报告可能误导、缺少风险边界或不适合公开传播的内容。
+title: "[risk] "
+labels:
+  - risk
+body:
+  - type: textarea
+    id: risk
+    attributes:
+      label: 风险描述
+      description: 说明具体文件、段落和潜在误导点。
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: 建议修正
+      description: 建议添加哪些边界、免责声明或删除哪些内容。
+    validations:
+      required: false

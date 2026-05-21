@@ -1,0 +1,27 @@
+name: 资料请求
+description: 请求补充某个量化交易主题、数据源或研究方向。
+title: "[source] "
+labels:
+  - research
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: 主题
+      placeholder: 例如：订单簿不平衡、滑点建模、期货展期
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么需要
+      description: 说明该主题对研究、工程或风险管理的价值。
+    validations:
+      required: true
+  - type: textarea
+    id: known_sources
+    attributes:
+      label: 已知来源
+      description: 如果已有论文、书籍、博客或数据源，请列出。
+    validations:
+      required: false
