@@ -22,6 +22,19 @@ mkdocs serve
 
 本地站点默认运行在 `http://127.0.0.1:8000`。
 
+## 知识索引
+
+| 入口 | 说明 |
+|---|---|
+| [量化交易知识点线面体](docs/getting-started/quant-trading-knowledge-system.md) | 从知识点、知识线、知识面到知识体，建立量化交易学习和研究的总框架。 |
+| [知识地图](docs/getting-started/knowledge-map.md) | 按市场基础、数据、研究、策略、风险、执行和工程复现组织阅读路径。 |
+| [研究流程](docs/research/research-process.md) | 从交易假设到数据验证、策略规则、回测和复盘的研究流程。 |
+| [回测框架](docs/research/backtesting.md) | 回测必须回答的问题、最低指标和常见风险。 |
+| [策略总览](docs/strategies/index.md) | 趋势跟随、均值回归、统计套利和执行算法等策略分类入口。 |
+| [风险总览](docs/risk/index.md) | 仓位、回撤和组合风险管理入口。 |
+| [算法交易执行](docs/strategies/execution.md) | 订单执行、滑点、冲击成本和执行算法相关资料入口。 |
+| [原始素材目录](docs/source/quant-popular-science/index.md) | 外部科普素材按原文主题拆分后的存档区。 |
+
 ## 主要目录
 
 | 路径 | 职责 |

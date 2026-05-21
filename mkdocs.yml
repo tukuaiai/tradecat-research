@@ -55,6 +55,7 @@ nav:
   - 首页: index.md
   - 入门:
       - getting-started/index.md
+      - 量化交易知识点线面体: getting-started/quant-trading-knowledge-system.md
       - 知识地图: getting-started/knowledge-map.md
       - 贡献路线: getting-started/contribution-path.md
   - 基础:

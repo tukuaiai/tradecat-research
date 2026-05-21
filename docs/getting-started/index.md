@@ -10,6 +10,7 @@
 
 ## 第一批建议阅读
 
+- [量化交易知识点线面体](quant-trading-knowledge-system.md)
 - [知识地图](knowledge-map.md)
 - [贡献路线](contribution-path.md)
 - [免责声明](../compliance/disclaimer.md)
