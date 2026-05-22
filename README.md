@@ -30,7 +30,9 @@ mkdocs serve
 
 | 文章 | 文件大小（字数） | 说明 |
 |---|---:|---|
-| [入门总览](docs/getting-started/index.md) | 245 | 知识库适合人群和第一批阅读入口。 |
+| [入门总览](docs/getting-started/index.md) | 322 | 知识库适合人群和第一批阅读入口。 |
+| [学习框架索引](docs/getting-started/learning-index.md) | 1067 | 汇总学习框架、分类阅读入口和最小行动路线。 |
+| [量化交易学习集合](docs/getting-started/quant-trading-learning-collection.md) | 14259 | 量化交易学习主线、核心概念、材料清单、角色定位和 30 天行动路线。 |
 | [量化交易知识点线面体](docs/getting-started/quant-trading-knowledge-system.md) | 7608 | 从知识点、知识线、知识面到知识体，建立量化交易学习和研究的总框架。 |
 | [知识地图](docs/getting-started/knowledge-map.md) | 289 | 按市场基础、数据、研究、策略、风险、执行和工程复现组织阅读路径。 |
 | [贡献路线](docs/getting-started/contribution-path.md) | 413 | 新增研究资料、策略主题和数据源的贡献路径。 |

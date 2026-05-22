@@ -9,6 +9,8 @@ getting-started/
 ├── AGENTS.md
 ├── index.md
 ├── knowledge-map.md
+├── learning-index.md
+├── quant-trading-learning-collection.md
 ├── quant-trading-knowledge-system.md
 └── contribution-path.md
 ```
@@ -17,6 +19,8 @@ getting-started/
 
 - `index.md`：入门页，给出第一批建议阅读链接。
 - `knowledge-map.md`：用七层结构组织量化研究全局知识地图。
+- `learning-index.md`：汇总入门学习框架、分类阅读入口和最小行动路线。
+- `quant-trading-learning-collection.md`：说明量化交易学习集合、核心概念、材料、角色定位和 30 天行动路线。
 - `quant-trading-knowledge-system.md`：用点、线、面、体结构说明量化交易学习和研究系统。
 - `contribution-path.md`：说明新增研究资料、策略主题和数据源的贡献路径。
 

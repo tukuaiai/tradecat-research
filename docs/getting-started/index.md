@@ -10,6 +10,8 @@
 
 ## 第一批建议阅读
 
+- [学习框架索引](learning-index.md)
+- [量化交易学习集合](quant-trading-learning-collection.md)
 - [量化交易知识点线面体](quant-trading-knowledge-system.md)
 - [知识地图](knowledge-map.md)
 - [贡献路线](contribution-path.md)
