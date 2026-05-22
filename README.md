@@ -24,16 +24,105 @@ mkdocs serve
 
 ## 知识索引
 
-| 入口 | 说明 |
+### 入门
+
+| 文章 | 说明 |
 |---|---|
+| [入门总览](docs/getting-started/index.md) | 知识库适合人群和第一批阅读入口。 |
 | [量化交易知识点线面体](docs/getting-started/quant-trading-knowledge-system.md) | 从知识点、知识线、知识面到知识体，建立量化交易学习和研究的总框架。 |
 | [知识地图](docs/getting-started/knowledge-map.md) | 按市场基础、数据、研究、策略、风险、执行和工程复现组织阅读路径。 |
-| [研究流程](docs/research/research-process.md) | 从交易假设到数据验证、策略规则、回测和复盘的研究流程。 |
+| [贡献路线](docs/getting-started/contribution-path.md) | 新增研究资料、策略主题和数据源的贡献路径。 |
+
+### 基础
+
+| 文章 | 说明 |
+|---|---|
+| [基础总览](docs/foundations/index.md) | 量化交易基础知识入口。 |
+| [市场微观结构](docs/foundations/market-microstructure.md) | 订单、撮合、流动性、市场机制和交易成本。 |
+| [统计基础](docs/foundations/statistics.md) | 描述统计、假设检验、回归、多重检验和分布风险。 |
+| [时间序列](docs/foundations/time-series.md) | 收益率、平稳性、自相关、波动率和结构突变。 |
+
+### 数据
+
+| 文章 | 说明 |
+|---|---|
+| [数据总览](docs/data/index.md) | 数据源、字段语义、质量控制和使用边界入口。 |
+| [数据源](docs/data/data-sources.md) | 数据源登记表和授权、质量、偏差记录规则。 |
+| [数据质量](docs/data/data-quality.md) | 缺失值、异常值、复权、时区、幸存者偏差等检查项。 |
+| [数据字典](docs/data/data-dictionary.md) | 行情字段、类型、单位、含义和质量约束模板。 |
+
+### 研究
+
+| 文章 | 说明 |
+|---|---|
+| [研究总览](docs/research/index.md) | 从想法到验证的研究入口。 |
+| [研究流程](docs/research/research-process.md) | 从交易假设到数据验证、策略规则、回测和复盘的流程。 |
 | [回测框架](docs/research/backtesting.md) | 回测必须回答的问题、最低指标和常见风险。 |
-| [策略总览](docs/strategies/index.md) | 趋势跟随、均值回归、统计套利和执行算法等策略分类入口。 |
-| [风险总览](docs/risk/index.md) | 仓位、回撤和组合风险管理入口。 |
-| [算法交易执行](docs/strategies/execution.md) | 订单执行、滑点、冲击成本和执行算法相关资料入口。 |
+| [实验记录](docs/research/experiment-log.md) | 实验编号、问题、假设、数据、方法、结果和后续动作。 |
+
+### 策略
+
+| 文章 | 说明 |
+|---|---|
+| [策略总览](docs/strategies/index.md) | 策略类型、适用市场、实现方式和风险边界入口。 |
+| [趋势跟随](docs/strategies/trend-following.md) | 趋势延续假设、常见实现和震荡市场风险。 |
+| [均值回归](docs/strategies/mean-reversion.md) | 均衡偏离、回归交易和关系失效风险。 |
+| [统计套利](docs/strategies/statistical-arbitrage.md) | 配对、协整、截面中性化和拥挤交易风险。 |
+| [执行算法](docs/strategies/execution.md) | TWAP、VWAP、POV、智能路由和成交建模入口。 |
+
+### 风险
+
+| 文章 | 说明 |
+|---|---|
+| [风险总览](docs/risk/index.md) | 仓位、回撤、组合暴露和尾部风险入口。 |
+| [仓位管理](docs/risk/position-sizing.md) | 固定金额、波动率目标、风险预算和 Kelly 类方法。 |
+| [回撤管理](docs/risk/drawdown.md) | 最大回撤、回撤持续时间、暂停恢复和回撤归因。 |
+| [组合风险](docs/risk/portfolio-risk.md) | 相关性、协方差、风险贡献、因子暴露和压力测试。 |
+
+### 工程化
+
+| 文章 | 说明 |
+|---|---|
+| [工程化总览](docs/engineering/index.md) | 研究复现、审阅和自动化入口。 |
+| [研究流水线](docs/engineering/research-pipeline.md) | 数据采集、校验、特征、信号、回测、风险审查和归档链路。 |
+| [可复现研究](docs/engineering/reproducibility.md) | 数据版本、依赖版本、随机种子、配置和运行命令。 |
+| [观测与复盘](docs/engineering/observability.md) | 研究阶段和实盘阶段的关键观测指标。 |
+
+### 合规与参考
+
+| 文章 | 说明 |
+|---|---|
+| [合规总览](docs/compliance/index.md) | 免责声明、引用规范和公开资料边界入口。 |
+| [免责声明](docs/compliance/disclaimer.md) | 投资、交易、法律和税务建议边界。 |
+| [引用规范](docs/compliance/citation-policy.md) | 论文、书籍、网页和数据源引用规则。 |
+| [参考总览](docs/references/index.md) | 术语、书目、论文和外部资源入口。 |
+| [术语表](docs/references/glossary.md) | Alpha、Beta、Drawdown、Slippage 等核心术语。 |
+| [书目与论文](docs/references/bibliography.md) | 书籍、论文、公开课程和资料索引。 |
+| [工具资源](docs/tools/resources.md) | 文档构建工具和量化研究工具资源。 |
+
+### 原始素材
+
+| 文章 | 说明 |
+|---|---|
 | [原始素材目录](docs/source/quant-popular-science/index.md) | 外部科普素材按原文主题拆分后的存档区。 |
+| [AI 量化编程该怎么学](docs/source/quant-popular-science/01-AI量化编程该怎么学-？.md) | AI 时代量化编程学习路径。 |
+| [量化策略英雄池](docs/source/quant-popular-science/02-量化策略英雄池.md) | 按波动和择时维度划分策略类型。 |
+| [量化私募的两种模式](docs/source/quant-popular-science/03-量化私募的两种模式.md) | 因子工厂模式和 PM 团队模式。 |
+| [交易的部署模式](docs/source/quant-popular-science/04-交易的部署模式.md) | 本地、单节点托管和两地分仓。 |
+| [如何用期权合成期货](docs/source/quant-popular-science/05-如何用期权合成期货.md) | 用看涨、看跌期权构造合成期货。 |
+| [通俗理解期权平价公式](docs/source/quant-popular-science/06-通俗理解期权平价公式.md) | 用组合收益结构解释 `S + P = C + PV`。 |
+| [算法交易：TWAP、VWAP 与 POV](docs/source/quant-popular-science/07-算法交易：TWAP、VWAP-与-POV.md) | 三类常见算法交易执行方式。 |
+
+### 投稿模板
+
+| 模板 | 说明 |
+|---|---|
+| [模板总览](docs/contribution-templates/index.md) | 统一资料结构和审阅入口。 |
+| [研究笔记模板](docs/contribution-templates/research-note.md) | 研究问题、假设、数据、方法、结果和风险模板。 |
+| [策略卡片模板](docs/contribution-templates/strategy-card.md) | Alpha 假设、交易规则、风控、回测和失效条件模板。 |
+| [数据集卡片模板](docs/contribution-templates/dataset-card.md) | 数据来源、覆盖范围、字段、质量和使用限制模板。 |
+| [实验记录模板](docs/contribution-templates/experiment-record.md) | 实验输入、方法、输出、结论和后续动作模板。 |
+| [来源卡片模板](docs/contribution-templates/source-card.md) | 外部来源摘要、可引用内容和授权风险模板。 |
 
 ## 主要目录
 
